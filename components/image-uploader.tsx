@@ -27,7 +27,7 @@ import type {
 import { ImagePreview } from "./image-preview";
 
 const API_ENDPOINT =
-  "https://tiot1bxrt6.execute-api.ap-south-1.amazonaws.com/prod";
+  "ENTER_YOUR_URL_HERE";
 
 export function ImageUploader() {
   const [file, setFile] = useState<File | null>(null);
